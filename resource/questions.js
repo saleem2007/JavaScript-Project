@@ -133,7 +133,7 @@ const questions = [{
      },
         
      {
-        "question": "The last index of an array is alwys one ______ than the length of the array.",
+        "question": "The last index of an array is always one ______ than the length of the array.",
         "option1": "1) Greater",
         "option2": "2) More",
         "option3": "3) Less",
