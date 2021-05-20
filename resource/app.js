@@ -87,6 +87,7 @@ function defaultButtonColor() {
 
 }
 
+// this function calls multiple functions within based on the condition, it sets the question into the app, change progress bar if it is on the last question and finally change the option button color.
 function getQuestions(qCount, rand) {
 
     if (qCount === 9) {
@@ -104,20 +105,20 @@ function getQuestions(qCount, rand) {
     defaultButtonColor();
     
 }
-
+// this function store correct answers record
 function setCorrect() {
 
     score++;
     tracker.style.backgroundColor = "green";
 
 }
-
+// this function stores the wrong answer record
 function wrongAnswer() {
 
     tracker.style.backgroundColor = "red";
 
 }
-
+// this function calculate and displays the final score after the submit button is clicked with the appropriate message based on the score.
 function finalScore() {
 
     score = (score / 10) * 100;
@@ -132,7 +133,7 @@ function finalScore() {
     }
 
 }
-
+// this function hides the question set and display the result screen after the submit button.
 function setResultPage() {
 
     quizSet.style.display = "none";
@@ -143,7 +144,7 @@ function setResultPage() {
 
 
 }
-
+// this function is a random question generator which make sure that the same questions are not repeating after user clicked retake or refresh the app
 function randomGen() {
 
     while(status === 0) {
@@ -166,6 +167,7 @@ function randomGen() {
     return rand;
 
 }
+
 
 option1.addEventListener("click", optionSelect);
 option2.addEventListener("click", optionSelect);
@@ -206,6 +208,7 @@ function optionSelect(e) {
 
 }
 
+// this function checks to see if user select an option if not then it sends alert message and also calling setcorrect and setwrong function based on the answer
 submit.addEventListener("click", nextQuestion);
 
 function nextQuestion() {
@@ -263,7 +266,7 @@ function retakeTest() {
     window.location.reload();
 
 }
-
+// A random question generator
 rand = Math.round(Math.random() * quesObject.length);
 while(rand === quesObject.length) {
 
