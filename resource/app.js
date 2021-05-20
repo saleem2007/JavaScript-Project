@@ -44,9 +44,16 @@ startButton.addEventListener("click", () => {
 
     quizBegin.style.display = "none";
     quizApp.style.display = "block";
+    const localStore = JSON.stringify(questions);
+    localStorage.setItem('questions', localStore);
+
+    
+
 
 });
 
+const localStore = localStorage.getItem('questions');
+const quesObject = JSON.parse(localStore);
 
 // Loading the Questions set into the app
 function setQuestion(qCount, rand) {

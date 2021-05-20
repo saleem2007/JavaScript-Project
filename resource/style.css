@@ -267,3 +267,44 @@ footer {
     text-align: right;
 
 }
+
+@media only screen and (min-width: 324px) and (max-width: 1420px) {
+
+    #heading {
+ 
+     height: 50px;
+     font-size: 30px;
+     padding: 2px 0px;
+ 
+    }
+ 
+    .number {
+ 
+     font-size: 20px;
+ 
+    }
+ 
+    #question {
+ 
+     font-size: 22px;
+    }
+ 
+    .button {
+ 
+     width: 350px;
+     margin: 5px;
+ 
+    }
+ 
+    .button span {
+ 
+     font-size: 18px;
+    }
+ 
+    #submit {
+ 
+     font-size: 20px;
+    }
+ 
+    
+ }
