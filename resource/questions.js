@@ -3,7 +3,7 @@
 
 const questions = [{
 
-        "question": "To avoid embarrasing naming mistakes, use _____ case.",
+        "question": "To avoid embarrasing naming mistakes, use ______ case.",
         "option1": "1) Book",
         "option2": "2) Cigarette",
         "option3": "3) Camel",
@@ -14,7 +14,7 @@ const questions = [{
 
     {
 
-        "question": "Do things more than once in a JavaScript program with the ____ loop.",
+        "question": "Do things more than once in a JavaScript program with the _____ loop.",
         "option1": "1) If/Else",
         "option2": "2) Do/While",
         "option3": "3) Switch",
@@ -25,7 +25,7 @@ const questions = [{
 
     {
 
-        "question": "All JavaScript statements end with a _____ .",
+        "question": "All JavaScript statements end with a ______ .",
         "option1": "1) Period",
         "option2": "2) Colon",
         "option3": "3) Semi-Colon",
@@ -45,7 +45,7 @@ const questions = [{
 
     {
 
-        "question": "=== is a _____ operator you can use to test to see if two values are the same.",
+        "question": "=== is a ______ operator you can use to test to see if two values are the same.",
         "option1": "1) Conditional",
         "option2": "2) Bus",
         "option3": "3) Comparison",
@@ -115,7 +115,7 @@ const questions = [{
     },
 
     {
-        "question": "When you reload your page, all your ____ get re-initialized.",
+        "question": "When you reload your page, all your ______ get re-initialized.",
         "option1": "1) Arguments",
         "option2": "2) Variables",
         "option3": "3) Local Variables",
@@ -124,7 +124,7 @@ const questions = [{
      },
 
      {
-        "question": "To adda new value to the end of an existing array, use ____.",
+        "question": "To add a new value to the end of an existing array, use ______.",
         "option1": "1) Pull",
         "option2": "2) Insert",
         "option3": "3) Append",
@@ -133,7 +133,7 @@ const questions = [{
      },
         
      {
-        "question": "The last index of an array is alwys one ____ than the length of the array.",
+        "question": "The last index of an array is alwys one ______ than the length of the array.",
         "option1": "1) Greater",
         "option2": "2) More",
         "option3": "3) Less",
@@ -142,7 +142,7 @@ const questions = [{
      },
 
      {
-        "question": "An object gets _____ with its method.",
+        "question": "An object gets ______ with its method.",
         "option1": "1) Value",
         "option2": "2) Keys",
         "option3": "3) Behavior",
@@ -151,7 +151,7 @@ const questions = [{
      },
 
      {
-        "question": "The name and value of a property in an object are separated by a _____.",
+        "question": "The name and value of a property in an object are separated by a ______.",
         "option1": "1) Comma",
         "option2": "2) Period",
         "option3": "3) Semi-Colon",
@@ -160,7 +160,7 @@ const questions = [{
      },
 
      {
-        "question": "To access the property of an object we use _____ notation.",
+        "question": "To access the property of an object we use ______ notation.",
         "option1": "1) Dot",
         "option2": "2) Comma",
         "option3": "3) This",
