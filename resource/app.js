@@ -46,7 +46,7 @@ startButton.addEventListener("click", () => {
     quizApp.style.display = "block";
     const localStore = JSON.stringify(questions);
     localStorage.setItem('questions', localStore);
-
+    alert("If the questions are not loaded properly, Please refresh the page and the App should work !!!!!!");
     
 
 
